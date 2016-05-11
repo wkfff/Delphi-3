@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{6BEFCFBA-6AF8-4230-ADB7-6F27313AC0A5}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="BarcodeGen.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\퀵리포트_출력테스트\Project1.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="BarcodeGen">
+        <MSBuild Projects="BarcodeGen.dproj"/>
+    </Target>
+    <Target Name="BarcodeGen:Clean">
+        <MSBuild Projects="BarcodeGen.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BarcodeGen:Make">
+        <MSBuild Projects="BarcodeGen.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Project1">
+        <MSBuild Projects="..\퀵리포트_출력테스트\Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="..\퀵리포트_출력테스트\Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="..\퀵리포트_출력테스트\Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="BarcodeGen;Project1"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="BarcodeGen:Clean;Project1:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="BarcodeGen:Make;Project1:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

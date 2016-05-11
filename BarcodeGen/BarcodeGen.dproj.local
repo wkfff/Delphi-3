@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.269,=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.519,=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.915,D:\Projects\BarcodeGen\UDM.dfm=D:\Projects\BarcodeGen\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.130,=D:\Projects\BarcodeGen\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.554,=D:\Projects\BarcodeGen\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.342,D:\Projects\BarcodeGen\FMain.dfm=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.404,=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.459,D:\Projects\BarcodeGen\UQReport.dfm=D:\Projects\BarcodeGen\Unit2.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.263,=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.199,=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.121,D:\Projects\BarcodeGen\BarcodeGen.dproj=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.030,D:\Projects\BarcodeGen\Unit2.dfm=D:\Projects\BarcodeGen\FDBLogin.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.342,D:\Projects\BarcodeGen\FMain.pas=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.459,D:\Projects\BarcodeGen\UQReport.pas=D:\Projects\BarcodeGen\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.915,D:\Projects\BarcodeGen\UDM.pas=D:\Projects\BarcodeGen\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.268,=D:\Projects\BarcodeGen\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.030,D:\Projects\BarcodeGen\Unit2.pas=D:\Projects\BarcodeGen\FDBLogin.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.370,=D:\Projects\BarcodeGen\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.851,=D:\Projects\BarcodeGen\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.970,=D:\Projects\BarcodeGen\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="FMain.pas"/>
+    <File Path="FMain.dfm"/>
+    <File Path="UDM.pas"/>
+    <File Path="UDM.dfm"/>
+    <File Path="UQReport.pas"/>
+    <File Path="UQReport.dfm"/>
+    <File Path="FDBLogin.pas"/>
+    <File Path="FDBLogin.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

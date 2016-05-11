@@ -1,0 +1,6 @@
+-- 테스트 바코드
+create table #tmp_csv(item_serno varchar(80));   
+
+insert into #tmp_csv (ITEM_SERNO) values ('');
+
+select * from #tmp_csv;
