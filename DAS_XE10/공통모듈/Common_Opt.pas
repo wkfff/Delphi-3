@@ -974,6 +974,8 @@ begin
             TComPort(comPORT).Timeouts.WriteTotalMultiplier := 30;
             TComPort(comPORT).FlowControl.ControlDTR := dtrEnable;
             TComPort(comPORT).FlowControl.ControlRTS := rtsDisable;
+            // 2016-05-10 dyddyd SyncMethod Ãß°¡
+            TComPort(comPORT).SyncMethod := smNone;
         end;
 
         if (MyCommTable[aRow,1] = 'BCU2') then
