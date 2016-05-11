@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.382,C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Project2.dproj=D:\Projects\파일검색\Service\SvcAgent.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.112,C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit2.dfm=D:\Projects\파일검색\Service\FSvcAgent.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.300,D:\Projects\파일검색\Service\FSvcAgent.pas=D:\Projects\파일검색\Service\SvcMain.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.300,D:\Projects\파일검색\Service\FSvcAgent.dfm=D:\Projects\파일검색\Service\SvcMain.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.109,=C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.112,C:\Users\kindsr\Documents\Embarcadero\Studio\Projects\Unit2.pas=D:\Projects\파일검색\Service\FSvcAgent.pas</Transaction>
+  </Transactions>
+</BorlandProject>
