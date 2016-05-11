@@ -1,0 +1,51 @@
+object fmOPTSUB: TfmOPTSUB
+  Left = 193
+  Top = 110
+  Width = 260
+  Height = 354
+  BorderIcons = [biSystemMenu]
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = #44404#47548
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  Scaled = False
+  PixelsPerInch = 96
+  TextHeight = 12
+  object pnlTitle: TPanel
+    Left = 0
+    Top = 0
+    Width = 244
+    Height = 40
+    Align = alTop
+    Color = 14729654
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clNavy
+    Font.Height = -27
+    Font.Name = #44404#47548
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnOK: TButton
+    Left = 48
+    Top = 288
+    Width = 75
+    Height = 25
+    Caption = #51200#51109
+    TabOrder = 1
+    OnClick = btnOKClick
+  end
+  object btnCANSEL: TButton
+    Left = 136
+    Top = 288
+    Width = 75
+    Height = 25
+    Caption = #52712#49548
+    TabOrder = 2
+    OnClick = btnCANSELClick
+  end
+end

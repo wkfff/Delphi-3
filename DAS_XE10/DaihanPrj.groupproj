@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{FDB03C88-9E6B-46E8-ACD9-5A4311A8F402}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="DAIHAN_DAS.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\WMS_XE10\source\DAIHAN.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DAIHAN_DAS">
+        <MSBuild Projects="DAIHAN_DAS.dproj"/>
+    </Target>
+    <Target Name="DAIHAN_DAS:Clean">
+        <MSBuild Projects="DAIHAN_DAS.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DAIHAN_DAS:Make">
+        <MSBuild Projects="DAIHAN_DAS.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DAIHAN">
+        <MSBuild Projects="..\WMS_XE10\source\DAIHAN.dproj"/>
+    </Target>
+    <Target Name="DAIHAN:Clean">
+        <MSBuild Projects="..\WMS_XE10\source\DAIHAN.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DAIHAN:Make">
+        <MSBuild Projects="..\WMS_XE10\source\DAIHAN.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DAIHAN_DAS;DAIHAN"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DAIHAN_DAS:Clean;DAIHAN:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DAIHAN_DAS:Make;DAIHAN:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
